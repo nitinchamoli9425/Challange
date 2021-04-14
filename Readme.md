@@ -1,7 +1,6 @@
 # Details #
 * Programming Language: Java
 * Tools & Framework: Gradle, Junit
-* Scripts: Challenge.java, ChallengeTest.java
 * Inputs to be tested are given via Junit tests
 
 # Test coverage #
