@@ -20,21 +20,21 @@ technologies contained in a directory and its parent.
 
 #### Input
 
-https://upb.de/site/drupal -> Drupal, Apache, PHP5, RedHat
-https://upb.de/site/drupal/a -> Drupal, Apache, PHP5, RedHat
-https://upb.de/site/drupal/a/b -> Drupal, Apache, PHP5, RedHat
-https://upb.de/site/drupal/a/c -> Drupal, Apache, PHP5, RedHat
-https://upb.de/site/drupal/a/d/e -> Drupal, Apache, PHP5, RedHat
-https://upb.de/site/drupal/f -> Drupal, Apache, PHP5, RedHat
-https://upb.de/site/drupal/g -> Drupal, Apache, PHP5, RedHat, AngularJS
-https://upb.de/site/jml -> Joomla, Apache, PHP4, AngularJS
-https://upb.de/site/jml/pdfs -> PDF generator
-https://upb.de/site/ -> Apache, PHP5
+* https://upb.de/site/drupal -> Drupal, Apache, PHP5, RedHat
+* https://upb.de/site/drupal/a -> Drupal, Apache, PHP5, RedHat
+* https://upb.de/site/drupal/a/b -> Drupal, Apache, PHP5, RedHat
+* https://upb.de/site/drupal/a/c -> Drupal, Apache, PHP5, RedHat
+* https://upb.de/site/drupal/a/d/e -> Drupal, Apache, PHP5, RedHat
+* https://upb.de/site/drupal/f -> Drupal, Apache, PHP5, RedHat
+* https://upb.de/site/drupal/g -> Drupal, Apache, PHP5, RedHat, AngularJS
+* https://upb.de/site/jml -> Joomla, Apache, PHP4, AngularJS
+* https://upb.de/site/jml/pdfs -> PDF generator
+* https://upb.de/site/ -> Apache, PHP5
 
 #### output
 
-https://upb.de/site/ -> Apache, PHP5
-https://upb.de/site/drupal/ -> Drupal, RedHat
-https://upb.de/site/drupal/g -> AngularJS
-https://upb.de/site/jml -> Joomla, PHP4, AngularJS
-https://upb.de/site/jml/pdfs -> PDF generator
+* https://upb.de/site/ -> Apache, PHP5
+* https://upb.de/site/drupal/ -> Drupal, RedHat
+* https://upb.de/site/drupal/g -> AngularJS
+* https://upb.de/site/jml -> Joomla, PHP4, AngularJS
+* https://upb.de/site/jml/pdfs -> PDF generator
