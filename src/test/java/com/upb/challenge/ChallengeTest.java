@@ -167,4 +167,19 @@ public class ChallengeTest {
             Assertions.assertTrue(false);
         }
     }
+
+       @Test
+    public void inputEmpty(){
+
+        Map<String, String[]> mapper= new TreeMap<String, String[]>();
+        mapper.put("https://", new String[]{"Drupal", "Apache", "PHP5", "RedHat"});
+        mapper.put("https://upb.de/site", new String[]{});
+        Challenge challenge= new Challenge(mapper);
+        try {
+            challenge.checkUnique();
+        }catch(Exception e){
+            e.printStackTrace();
+            Assertions.assertTrue(false);
+        }
+    }
 }
